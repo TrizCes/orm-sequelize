@@ -3,7 +3,7 @@ module.exports = (sequelize, DataTypes) => {
   const Niveis = sequelize.define(
     'Niveis',
     {
-      descr_nivel: DataTypes.STRING,
+      descri_nivel: DataTypes.STRING,
     },
     { paranoid: true }
   );
